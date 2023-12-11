@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icons/heart.svg"
+      type="image/x-icon"
+    />
+    <title>Nare</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/output.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- JS -->
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+  <body
+    class="bg-primary-100 flex flex-col justify-center min-h-screen font-montserrat"
+  >
+    <!-- loader -->
+    <div class="loader relative flex items-center justify-center">
+      <span>nare</span>
+      <span>nare</span>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+      <!-- navbar | Start -->
+      <nav class="bg-primary-400 border-b border-black">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="#top"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="/assets/images/icons/bag-icon.png"
+              class="h-8"
+              alt="Nare Logo"
+            />
+            <span
+              class="text-black self-center text-3xl font-semibold whitespace-nowrap"
+              >Nare</span
+            >
+          </a>
+          <div
+            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+          >
+            <a
+              aria-label="Chat on WhatsApp"
+              href="https://wa.me/905059933074"
+              target="_blank"
+              class=""
+            >
+              <button
+                type="button"
+                class="text-black bg-primary-100 hover:bg-primary-200 focus:ring-4 focus:outline-none focus:ring-primary-50 font-semibold rounded-lg text-sm px-4 py-2 text-center"
+              >
+                Mesaj Atın
+              </button>
+            </a>
+            <button
+              data-collapse-toggle="navbar-cta"
+              type="button"
+              class="items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-primary-200 hidden"
+              aria-controls="navbar-cta"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-cta"
+          >
+            <ul
+              class="flex flex-col font-semibold p-4 md:p-0 mt-4 rounded-lg bg-primary-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-primary-400"
+            >
+              <li>
+                <a
+                  href="#toka"
+                  class="block py-2 px-3 md:p-0 text-black hover:bg-primary-400 rounded md:bg-transparent md:hover:text-primary-200"
+                  >Toka</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#corap"
+                  class="block py-2 px-3 md:p-0 text-black rounded hover:bg-primary-400 md:hover:bg-transparent md:hover:text-primary-200"
+                  >Çorap</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#ic-giyim"
+                  class="block py-2 px-3 md:p-0 text-black rounded hover:bg-primary-400 md:hover:bg-transparent md:hover:text-primary-200"
+                  >İç Giyim</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#panduf"
+                  class="block py-2 px-3 md:p-0 text-black rounded hover:bg-primary-400 md:hover:bg-transparent md:hover:text-primary-200"
+                  >Panduf</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar | End -->
+
+      <!-- intro | Start -->
+      <div class="flex flex-col items-center border-b-2 border-black">
+        <img
+          class="w-full h-auto max-w-full lg:max-w-md"
+          src="/assets/images/icons/shopping-bags-intro-img.svg"
+          alt=""
+        />
+        <p class="py-4 text-2xl text-black font-opensans">Hoşgeldiniz</p>
+      </div>
+      <!-- intro | End -->
+
+      <!-- main content | Start -->
+      <div class="">
+        <!-- toka | Start -->
+        <div
+          id="toka"
+          class="mx-auto px-4 lg:px-0 py-8 lg:py-16 border-b-2 border-black"
+        >
+          <h1
+            class="mb-8 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-6xl text-center"
+          >
+            Toka
+          </h1>
+          <!-- Slider main container -->
+          <div
+            class="swiper mySwiper rounded-2xl w-full h-auto lg:max-w-4xl shadow-bottom"
+          >
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-1.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-2.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-3.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-4.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-5.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-3.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-7.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/toka/toka-8.jpeg"
+                  alt=""
+                  class="aspect-4/3"
+                />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <!-- toka | End -->
+
+        <!-- corap | Start -->
+        <div
+          id="corap"
+          class="mx-auto px-4 lg:px-0 py-8 lg:py-16 border-b-2 border-black"
+        >
+          <h1
+            class="mb-8 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-6xl text-center"
+          >
+            Çorap
+          </h1>
+          <!-- Slider main container -->
+          <div
+            class="swiper mySwiper rounded-2xl w-full h-auto lg:max-w-4xl shadow-bottom"
+          >
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-4.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-5.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-7.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-8.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-9.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-10.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-11.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-12.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-13.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-14.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-15.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-16.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/corap/corap-17.jpg" alt="" />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <!-- corap | End -->
+
+        <!-- iç giyim | Start -->
+        <div
+          id="ic-giyim"
+          class="mx-auto px-4 lg:px-0 py-8 lg:py-16 border-b-2 border-black"
+        >
+          <h1
+            class="mb-8 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-6xl text-center"
+          >
+            İç Giyim
+          </h1>
+          <!-- Slider main container -->
+          <div
+            class="swiper mySwiper rounded-2xl w-full h-auto lg:max-w-4xl shadow-bottom"
+          >
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/ic-giyim/atlet-erkek.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/ic-giyim/atlet-kadin.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/ic-giyim/boxer-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/ic-giyim/boxer-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/ic-giyim/boxer-3.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <!-- iç giyim | End -->
+
+        <!-- panduf | Start -->
+        <div
+          id="panduf"
+          class="mx-auto px-4 lg:px-0 py-8 lg:py-16 border-b-2 border-black"
+        >
+          <h1
+            class="mb-8 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-6xl text-center"
+          >
+            Panduf
+          </h1>
+          <!-- Slider main container -->
+          <div
+            class="swiper mySwiper rounded-2xl w-full h-auto lg:max-w-4xl shadow-bottom"
+          >
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="/assets/images/products/panduf/panduf-1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/products/panduf/panduf-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/panduf/panduf-3.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/panduf/panduf-4.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/panduf/panduf-5.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/assets/images/products/panduf/panduf-6.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <!-- panduf | End -->
+      </div>
+      <!-- main content | End -->
+
+      <!-- contact | Start -->
+      <div
+        class="mx-auto px-4 lg:px-0 py-8 lg:py-16 border-b-2 border-black flex flex-col items-center"
+      >
+        <p class="mb-3 text-lg text-black md:text-xl font-opensans">
+          Bilgi almak için mesaj atabilirsiniz
+        </p>
+        <a
+          aria-label="Chat on WhatsApp"
+          href="https://wa.me/905059933074"
+          target="_blank"
+          class=""
+        >
+          <img
+            alt="Chat on WhatsApp"
+            src="/assets/images/icons/whatsapp-btn.svg"
+          />
+        </a>
+      </div>
+      <!-- contact | End -->
+
+      <!-- footer | Start -->
+      <footer class="bg-primary-400 p-4">
+        <p class="text-sm text-black text-center font-medium font-opensans">
+          ©2023 Nare. Tüm hakları saklıdır.
+        </p>
+      </footer>
+      <!-- footer | End -->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        loop: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- flowbite JS -->
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./assets/css/output.css && npx parcel build index.html",
+    "watch": "npx tailwindcss -i ./input.css -o ./assets/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "flowbite": "^2.2.0",
+    "sharp": "^0.31.1"
+  }
+}
