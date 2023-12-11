@@ -4,4 +4,5 @@
 
 [https://nare.netlify.app/](https://nare.netlify.app/)
 
-<img style="width:300px" src="https://github.com/bugrabasbostanci/nare/assets/123307602/1e61f4de-07f5-4081-bbae-767cdabb5ad7">
+<img style="width:300px" src="https://github.com/bugrabasbostanci/nare-catalog/assets/123307602/2ab9ad72-f5f5-46ee-85e9-457f50461954">
+
