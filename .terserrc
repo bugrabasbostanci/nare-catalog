@@ -1,0 +1,8 @@
+{
+  "mangle": {
+    "reserved": [
+      "loaderEl",
+      "contentEl"
+    ]
+  }
+}
